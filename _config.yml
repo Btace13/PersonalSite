@@ -1,3 +1,6 @@
+#Site Settings
 
+url: "http://btace13.github.io"
+baseurl: "/PersonalSite/"
 # Custom Excludes
 exclude: [gulpfile.js, package.json, node_modules, src]
