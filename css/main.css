@@ -198,6 +198,12 @@ EXPERIENCES
   font-size: 1.2em;
   line-height: 1.5em;
 }
+.job a {
+  text-decoration: none;
+}
+.job a:hover {
+  color: #A75265;
+}
 /*******************************************
 CONTACT
 *******************************************/
