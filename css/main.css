@@ -19,7 +19,7 @@ body{
   font-weight: 400;
   font-size: 1em;
   color: #E7E7DE;
-  background: url("img/back.png");
+  background: url("{{ site.github.url }}/img/back.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
