@@ -374,5 +374,10 @@ margin-top: 15px;
 }
 .portImg{
   width: auto;
-  max-height: 198px;
+  max-height: 189px;
+}
+@media(max-width: 1200px){
+  .portImg{
+    max-height: 150px;
+  }
 }
