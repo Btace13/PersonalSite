@@ -368,3 +368,11 @@ CUSTOM
 .backOff{
   margin-bottom: 15px;
 }
+
+.marginTop{
+margin-top: 15px;
+}
+.portImg{
+  width: auto;
+  max-height: 198px;
+}
