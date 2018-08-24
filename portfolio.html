@@ -1,200 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:site_name" content="EnriqueUrbina.com" />
-    <meta property="og:title" content="MY NAME IS ENRIQUE URBINA23YO AND THIS IS MY RESUME/CV"
-    />
-    <meta property="og:description" content="I'm a Web Developer.
 
-    Officially, my job is to design, code and modify websites, from layout to function according to a client's specifications. But really? I create digital art! With a few lines of code I get to help people promote themselves and what they do, help businesses grow and share with the world their services. I'm obsessed with learning new technologies and surrounding myself with the culture and passion that is the web development field." 
-    />
-    <meta property="og:image" content="./img/profile.gif">
-    <meta property="og:url" content="http://enriqueurbina.com">
-    <meta property="og:type" content="resume" />
-    <title>Enrique Urbina Portfolio</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:site_name" content="EnriqueUrbina.com" />
+  <meta property="og:title" content="MY NAME IS ENRIQUE URBINA AND THIS IS MY RESUME/CV" />
+  <meta property="og:description" content="I'm a Web Developer.
+
+    Officially, my job is to design, code and modify websites, from layout to function according to a client's specifications. But really? I create digital art! With a few lines of code I get to help people promote themselves and what they do, help businesses grow and share with the world their services. I'm obsessed with learning new technologies and surrounding myself with the culture and passion that is the web development field."
+  />
+  <meta property="og:image" content="./img/profile.gif">
+  <meta property="og:url" content="http://enriqueurbina.com">
+  <meta property="og:type" content="resume" />
+  <title>Enrique Urbina Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+</head>
+
+<body>
+  <!-- Portfolio -->
+  <section class="content-section portt" id="portfolio">
     <div class="container">
-      <div class="row">
-          <div id="text-header">
-              <h1>Portfolio</h1>
-            </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>Starfish Coffee House</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2016</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, jQuery
-                </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://btace13.github.io/intro-workbook/10LessonTen/Checkpoint2/" target="_blank">
-                  <img src="./img/portfolio/coffee_house.png" class="img-responsive portImg" alt="">
-                </a>
-                <div class="profession marginTop">MY FIRST WEB DESIGN PROJECT</div>
-            </div>
-            </div>
-          </div>
+      <div class="content-section-heading text-center">
+        <div id="text-header" style="border-bottom: none;">
+          <h1>Portfolio</h1>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>Ask Arcell</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2016</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, Bootstrap, Javascript, VueJS, Firebase
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://btace13.github.io/intro-workbook/10LessonTen/Checkpoint2/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Starfish Coffee House</h2>
+                <div class="profession marginTop">My First Web Design Project</div>
+                <div class="year">Year Created:
+                  <span class="where">2016</span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://askarcell-5aef6.firebaseapp.com/" target="_blank">
-                  <img src="./img/portfolio/askA.png" class="img-responsive portImg" alt="">
-                </a>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, jQuery
+                  </span>
+                </div>
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/coffee_house.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://askarcell-5aef6.firebaseapp.com/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Ask Arcell</h2>
                 <div class="profession marginTop">MY FIRST FULLSTACK APP</div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>AG Design</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2017</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, jQuery, Bootstrap
+                <div class="year">Year Created:
+                  <span class="where">2016</span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://btace13.github.io/AGDesign/" target="_blank">
-                  <img src="./img/portfolio/ag.png" class="img-responsive portImg" alt="">
-                </a>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, Bootstrap, Javascript, VueJS, Firebase
+                  </span>
+                </div>
+
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/askA.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://btace13.github.io/AGDesign/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>AG Design</h2>
                 <div class="profession marginTop">SITE I CREATED FOR A LOCAL GRAPHIC DESIGNER</div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>Movie Search</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2017</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, Javascript, ReactJS, Materialize, API's
+
+                <div class="year">Year Created:
+                  <span class="where">2017</span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://moviedb-d2ad4.firebaseapp.com/" target="_blank">
-                  <img src="./img/portfolio/movieSearch.png" class="img-responsive portImg" alt="">
-                </a>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, jQuery, Bootstrap
+                  </span>
+                </div>
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/ag.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://moviedb-d2ad4.firebaseapp.com/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Movie Search</h2>
                 <div class="profession marginTop">MOVIE SEARCH WEB APP</div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>VIA Transit Codeathon</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2018</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, Javascript, ReactJS, Materialize, API's
+                <div class="year">Year Created:
+                  <span class="where">2017</span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://via-transit-alarm.firebaseapp.com" target="_blank">
-                  <img src="./img/portfolio/via.png" class="img-responsive portImg" alt="">
-                </a>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, Javascript, ReactJS, Materialize, API's
+                  </span>
+                </div>
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/movieSearch.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://via-transit-alarm.firebaseapp.com" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>VIA Transit Codeathon</h2>
                 <div class="profession marginTop">WEB APP CREATED DURING A CODEATHON</div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>SchoolCloud.io</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2018</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, Javascript, Bootstrap, UI Kit
+                <div class="year">Year Created:
+                  <span class="where">2018</span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="#">
-                  <img src="./img/portfolio/schoolCloud.png" class="img-responsive portImg" alt="">
-                </a>
-                <div class="profession marginTop">MARKETING SITE MADE FOR STARTUP I INTERN FOR.</div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>Social Network App</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2018</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, Javascript, Bootstrap 4, ReactJS, Redux, MongoDB, ExpressJS
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, Javascript, ReactJS, Materialize, VIA Datasets
+                  </span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://social-network-app-learning.herokuapp.com/" target="_blank">
-                  <img src="./img/portfolio/social-network.png" class="img-responsive portImg" alt="">
-                </a>
+
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/via.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>SchoolCloud.io</h2>
+                <div class="profession marginTop">MARKETING SITE MADE FOR A STARTUP I INTERNED FOR</div>
+
+                <div class="year">Year Created:
+                  <span class="where">2018</span>
+                </div>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, Javascript, Bootstrap, UI Kit
+                  </span>
+                </div>
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/schoolCloud.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://social-network-app-learning.herokuapp.com/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Social Network App</h2>
                 <div class="profession marginTop">SOCIAL NETWORK APP CREATED TO LEARN REDUX AND FULLSTACK DEVELOPMENT</div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6">
-          <div class="box">
-             <h2>Landbnb</h2>
-            <div class="job clearfix">
-              <div class="col-md-3 col-xs-12 backOff">
-                <div class="year">Year Created:</div><div class="where">2018</div>
-                <div class="year">Technologies Used:</div>
-                <div class="where">
-                  HTML5, CSS3, Javascript, Bulma
+
+                <div class="year">Year Created:
+                  <span class="where">2018</span>
                 </div>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <a href="https://btace13.github.io/Landbnb/" target="_blank">
-                  <img src="./img/portfolio/landbnb.png" class="img-responsive portImg" alt="">
-                </a>
-                <div class="profession marginTop">REPLICATED AIRBNB PAGE</div>
-            </div>
-            </div>
-          </div>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, Javascript, Bootstrap 4, ReactJS, Redux, MongoDB, ExpressJS
+                  </span>
+                </div>
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/social-network.png" alt="">
+          </a>
         </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="https://btace13.github.io/Landbnb/" target="_blank">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Landbnb</h2>
+                <div class="profession marginTop">RECREATED AIRBNB PAGE</div>
+
+                <div class="year">Year Created:
+                  <span class="where">2018</span>
+                </div>
+                <div class="year">Technologies Used:
+                  <span class="where">
+                    HTML5, CSS3, Javascript, Bulma
+                  </span>
+                </div>
+              </span>
+            </span>
+            <img class="img-fluid" src="./img/portfolio/landbnb.png" alt="">
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- JQUERY -->
-    <script src="js/jquery.min.js"></script>
-    <!-- BOOTSTRAP -->
-    <script src="js/bootstrap.min.js"></script>
+  </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+      crossorigin="anonymous"></script>
     <!-- SCRIPTS -->
     <script src="js/scripts.js"></script>
-  </body>
+</body>
+
 </html>
