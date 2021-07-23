@@ -1,52 +1,167 @@
----
-title: Enrique Urbina
----
 <!DOCTYPE html>
-<html lang="en">
-    {% include head.html %}
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            <div id="photo">
-              <img src="img/profile.gif" alt="avatar">
-            </div>
-            <div id="text-header">
-              <h1>Hello,<br> my name is <span>Enrique Urbina</span><sup>22yo</sup> and this is my RESUME/CV</h1>
-            </div>
-          </div>
+<html class="no-js ajax-content" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Enrique Urbina</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="author" content="weibergmedia">
+        <meta name="Description" content="Sugarland – Contemporary Portfolio for Creatives that Stands Out"/>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="https://fonts.googleapis.com/css?family=Rufina:400,600,700,800" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,600,400italic" rel="stylesheet"/>
+        <script src="js/modernizr.js" type="text/javascript"></script>
+    </head>
+    <body class="sliphover-active">
+        <div id="ajax-content">
+            <div class="ajax-close"></div>
+            <div class="ajax-slider"></div>
+            <div class="ajax-sidebar"></div>
+            <div class="ajax-more">Show Info</div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          <!-- ABOUT ME -->
-          <div class="box">
-            <h2>About Me</h2>
-            <p>I'm a Web Developer.</p>
-            <p>Officially, my job is to design, code and modify websites, from layout to function according to a client's specifications.
-            But really? I create digital art! With a few lines of code I get to help people promote themselves and what they do, help businesses grow and share with the world their services.
-            I'm obsessed with learning new technologies and surrounding myself with the culture and passion that is the web development field.</p>
-          </div>
-                 {% include education.html %}
-                 
-                 {% include experiences.html %}
-         
-        <div class="col-xs-12 col-sm-5">
-            
-                 {% include contact.html %}
-                 
-                 {% include skills.html %}
-                  
-                 
-                 {% include hobbies.html %}
-                 
-                 {% include blog.html %}
-         
+        <!-- start wrapper -->
+        <div class="wrapper">
+            <h1 id="logo">
+                <a href="./index.html">Enrique Urbina</a>
+                <div class="circle-anim"></div>
+
+            </h1>
+            <div id="menu-button">
+                <div
+                    class="cursor">
+                    <!--Menu-->
+                    <div id="nav-button">
+                        <span class="nav-bar"></span>
+                        <span class="nav-bar"></span>
+                        <span class="nav-bar"></span>
+                    </div>
+                </div>
+            </div>
+            <header>
+
+                <!-- start main nav -->
+                <nav id="main-nav">
+                    <ul class="option-set clearfix" data-option-key="filter">
+                        <li>
+                            <a href="#" class="sub-nav-toggle active">Portfolio</a>
+                            <ul id="options" class="sub-nav">
+                                <li>
+                                    <a href="#" class="control" data-filter="all">All</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="control" data-filter=".app">App</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="control" data-filter=".web">Web</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="control" data-filter=".game">Game</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- end main nav -->
+                <div id="bottom-header">
+                    <ul class="social-list clearfix">
+                        <li>
+                            <a href="https://twitter.com/enrique_io" target="_blank" class="circled">
+                                <i class="fa fa-twitter"></i>
+                                <div class="circle-anim"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Btace13" class="circled">
+                                <i class="fa fa-github"></i>
+                                <div class="circle-anim"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/btace13/" class="circled">
+                                <i class="fa fa-linkedin"></i>
+                                <div class="circle-anim"></div>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>San Antonio, Tx
+                        <br/><br/>
+                        Austin, Tx</p>
+                </div>
+            </header>
+            <div id="white-background"></div>
+            <div id="background-color"></div>
+            <!-- start content -->
+            <div id="content">
+                <div id="fixed-barrier"></div>
+                <div class="padding-0 clearfix" data-ref="mixitup-container">
+                    <div class="mix item green clearfix col-md-4 col-sm-6 home portfolio web game" data-ref="mixitup-target">
+                        <a href="ajax/projects/dmwt.html" title="">
+                            <figure class="images">
+                                <img src="images/port/icons/dmwt.png" alt="<span>Web Game</span>Darrel The Barrel" class="slip"/>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="mix item green clearfix col-md-4 col-sm-6 home portfolio app" data-ref="mixitup-target">
+                        <a href="ajax/projects/linq.html" title="">
+                            <figure class="images">
+                                <img src="images/port/icons/linq.png" alt="<span>App</span>LinqB2B" class="slip"/>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="mix item green clearfix col-md-4 col-sm-6 home portfolio app" data-ref="mixitup-target">
+                        <a href="ajax/projects/navnow.html" title="">
+                            <figure class="images">
+                                <img src="images/port/icons/navnow.png" alt="<span>App</span>NavNow" class="slip"/>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="mix item green clearfix col-md-4 col-sm-6 home portfolio app game" data-ref="mixitup-target">
+                        <a href="ajax/projects/halloween.html" title="">
+                            <figure class="images">
+                                <img src="images/port/icons/halloween.png" alt="<span>Mobile Game</span> IMG Halloween App 2020 " class="slip"/>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="mix item green clearfix col-md-4 col-sm-6 home portfolio app web" data-ref="mixitup-target">
+                        <a href="ajax/projects/via.html" title="">
+                            <figure class="images">
+                                <img src="images/port/icons/via.png" alt="<span>Web App</span>Via Codeathon Submission" class="slip"/>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="mix item green clearfix col-md-4 col-sm-6 home portfolio app web" data-ref="mixitup-target">
+                        <a href="ajax/projects/teachers.html" title="">
+                            <figure class="images">
+                                <img src="images/port/icons/teachers.png" alt="<span>Web App</span>Teachers Can" class="slip"/>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <!-- end mixitup container -->
+
+            </div>
+            <!-- end content -->
         </div>
-      </div>
-    </div>
-                 {% include footer.html %}
-  </body>
+        <!-- end wrapper -->
+
+        <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+        <script src="js/jquery-easing-1.3.js" type="text/javascript"></script>
+        <script src="js/jquery.touchSwipe.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+        <script src="js/jquery.sliphover.min.js" type="text/javascript"></script>
+    </body>
 </html>
